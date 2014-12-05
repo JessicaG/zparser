@@ -1,4 +1,4 @@
-module FmnhGem
+module Zparser
   class ZillowScraper
     def populate_property
       property = Rubillow::HomeValuation.zestimate({ :zpid => zpid })

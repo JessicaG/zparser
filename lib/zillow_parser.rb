@@ -1,4 +1,4 @@
-module FmnhGem
+module Zparser
   class ZillowParser
     def import(first_page, last_page)
       zillow_result_urls(first_page, last_page).each do |url|

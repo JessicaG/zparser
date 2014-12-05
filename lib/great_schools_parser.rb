@@ -1,4 +1,4 @@
-module FmnhGem
+module Zparser
   class GreatSchoolsParser
     def school_list
       Faraday.get("http://api.greatschools.org/schools/nearby?key=#{ENV['GSCHOOLID']}&city=Denver&state=CO")
